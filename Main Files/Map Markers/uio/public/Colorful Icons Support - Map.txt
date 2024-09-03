@@ -1,0 +1,2 @@
+Stentorious\Colorful Icons Support\InjectTrait\systemcolor.xml::MapMenu::MapMarker
+true

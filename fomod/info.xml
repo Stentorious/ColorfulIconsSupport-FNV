@@ -1,0 +1,10 @@
+<fomod>
+	<Name>Colorful Icons Support</Name>
+	<Author>Stentorious</Author>
+	<Version>1.4</Version>
+	<Website>https://www.nexusmods.com/newvegas/mods/85075</Website>
+	<Description>Removes interface tint from certain UI icons.</Description>
+	<Groups>
+		<element>User Interface</element>
+	</Groups>
+</fomod>

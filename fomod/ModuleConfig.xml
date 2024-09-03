@@ -1,0 +1,63 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://qconsulting.ca/fo3/ModConfig5.0.xsd">
+	<moduleName>Colorful Icons Support</moduleName>
+	<installSteps order="Explicit">
+		<installStep name="Colorful Icons Support">
+			<optionalFileGroups order="Explicit">
+				<group name="Interface" type="SelectAny">
+					<plugins order="Explicit">
+						<plugin name="ySI - Sorting Icons">
+							<description>Select if you want to remove the interface tint from ySI - Sorting Icons.&#13;&#10;
+NOTE: Colorful icons downloaded separately.</description>
+							<files>
+								<folder source="Main Files\ySI" destination="" priority="0" />
+							</files>
+							<typeDescriptor>
+								<type name="Recommended"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Map Markers">
+							<description>Select if you want to remove the interface tint from map markers.&#13;&#10;
+NOTE: Colorful icons downloaded separately.</description>
+							<files>
+								<folder source="Main Files\Map Markers" destination="" priority="0" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+				<group name="ySI - Categories" type="SelectAtMostOne">
+					<plugins order="Explicit">
+						<plugin name="Lite">
+							<description>Select if you want to install ySI - Categories Lite (Colorful icons supported)&#13;&#10;
+Adds categories to the following Pip-Boy inventory sections:&#13;
+ - Aid
+ - Misc</description>
+							<files>
+								<folder source="Optional\ySI - Categories Lite" destination="" priority="0" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Full">
+							<description>Select if you want to install ySI - Categories Full (Colorful icons supported)&#13;&#10;
+Adds categories to the following Pip-Boy inventory sections:&#13;
+ - Weapons
+ - Apparel
+ - Aid
+ - Misc</description>
+							<files>
+								<folder source="Optional\ySI - Categories Full" destination="" priority="0" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+			</optionalFileGroups>
+		</installStep>
+	</installSteps>
+</config>
