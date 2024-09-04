@@ -57,6 +57,20 @@ Adds categories to the following Pip-Boy inventory sections:&#13;
 						</plugin>
 					</plugins>
 				</group>
+				<group name="Optional" type="SelectAny">
+					<plugins order="Explicit">
+						<plugin name="ySI - JSON Patcher">
+							<description>Scriptrunner which patches all ySI JSON files to remove icon interface tint.&#13;&#10;
+NOTE: Cannot be reverted without reinstalling the patched JSONs source mod.</description>
+							<files>
+								<folder source="Optional\ySI - JSON Patcher" destination="" priority="0" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
 			</optionalFileGroups>
 		</installStep>
 	</installSteps>
