@@ -30,8 +30,7 @@ NOTE: Colorful icons downloaded separately.</description>
 				<group name="ySI - Categories" type="SelectAtMostOne">
 					<plugins order="Explicit">
 						<plugin name="Lite">
-							<description>Select if you want to install ySI - Categories Lite (Colorful icons supported)&#13;&#10;
-Adds categories to the following Pip-Boy inventory sections:&#13;
+							<description>Adds ySI - Categories to the following Pip-Boy inventory sections:&#13;&#10;
  - Aid
  - Misc</description>
 							<files>
@@ -42,8 +41,7 @@ Adds categories to the following Pip-Boy inventory sections:&#13;
 							</typeDescriptor>
 						</plugin>
 						<plugin name="Full">
-							<description>Select if you want to install ySI - Categories Full (Colorful icons supported)&#13;&#10;
-Adds categories to the following Pip-Boy inventory sections:&#13;
+							<description>Adds ySI - Categories to the following Pip-Boy inventory sections:&#13;&#10;
  - Weapons
  - Apparel
  - Aid
