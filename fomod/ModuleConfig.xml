@@ -9,17 +9,17 @@
 							<description>Select if you want to remove the interface tint from ySI - Sorting Icons.&#13;&#10;
 NOTE: Colorful icons downloaded separately.</description>
 							<files>
-								<folder source="Main Files\ySI" destination="" priority="0" />
+								<folder source="Main\ySI" destination="" priority="0" />
 							</files>
 							<typeDescriptor>
 								<type name="Recommended"/>
 							</typeDescriptor>
 						</plugin>
 						<plugin name="Map Markers">
-							<description>Select if you want to remove the interface tint from map markers.&#13;&#10;
+							<description>Select if you want to remove the interface tint from world map location and local map door markers.&#13;&#10;
 NOTE: Colorful icons downloaded separately.</description>
 							<files>
-								<folder source="Main Files\Map Markers" destination="" priority="0" />
+								<folder source="Main\Map Markers" destination="" priority="0" />
 							</files>
 							<typeDescriptor>
 								<type name="Optional"/>
@@ -47,7 +47,8 @@ Adds categories to the following Pip-Boy inventory sections:&#13;
  - Weapons
  - Apparel
  - Aid
- - Misc</description>
+ - Misc
+ - Ammo</description>
 							<files>
 								<folder source="Optional\ySI - Categories Full" destination="" priority="0" />
 							</files>
