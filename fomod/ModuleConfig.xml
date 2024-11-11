@@ -27,28 +27,48 @@ NOTE: Colorful icons downloaded separately.</description>
 						</plugin>
 					</plugins>
 				</group>
-				<group name="ySI - Categories" type="SelectAtMostOne">
+				<group name="ySI - Categories" type="SelectAny">
 					<plugins order="Explicit">
-						<plugin name="Lite">
-							<description>Adds ySI - Categories to the following Pip-Boy inventory sections:&#13;&#10;
- - Aid
- - Misc</description>
+						<plugin name="Weapons">
+							<description>Adds ySI - Categories to the Pip-Boy "Weapons" section.</description>
 							<files>
-								<folder source="Optional\ySI - Categories Lite" destination="" priority="0" />
+								<file source="Optional\ySI - Categories\ySI - Weapon Categories.json" destination="menus\ySI\ySI - Weapon Categories.json" priority="0" />
 							</files>
 							<typeDescriptor>
 								<type name="Optional"/>
 							</typeDescriptor>
 						</plugin>
-						<plugin name="Full">
-							<description>Adds ySI - Categories to the following Pip-Boy inventory sections:&#13;&#10;
- - Weapons
- - Apparel
- - Aid
- - Misc
- - Ammo</description>
+						<plugin name="Apparel">
+							<description>Adds ySI - Categories to the Pip-Boy "Apparel" section.</description>
 							<files>
-								<folder source="Optional\ySI - Categories Full" destination="" priority="0" />
+								<file source="Optional\ySI - Categories\ySI - Apparel Categories.json" destination="menus\ySI\ySI - Apparel Categories.json" priority="0" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Aid">
+							<description>Adds ySI - Categories to the Pip-Boy "Aid" section.</description>
+							<files>
+								<file source="Optional\ySI - Categories\ySI - Aid Categories.json" destination="menus\ySI\ySI - Aid Categories.json" priority="0" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Misc">
+							<description>Adds ySI - Categories to the Pip-Boy "Misc" section.</description>
+							<files>
+								<file source="Optional\ySI - Categories\ySI - Misc Categories.json" destination="menus\ySI\ySI - Misc Categories.json" priority="0" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Ammo">
+							<description>Adds ySI - Categories to the Pip-Boy "Ammo" section.</description>
+							<files>
+								<file source="Optional\ySI - Categories\ySI - Ammo Categories.json" destination="menus\ySI\ySI - Ammo Categories.json" priority="0" />
 							</files>
 							<typeDescriptor>
 								<type name="Optional"/>

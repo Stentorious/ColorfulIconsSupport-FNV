@@ -1,0 +1,23 @@
+{"icons": [
+
+	{ "priority": 101, "tag": "(amm0)", "systemcolor": -1, "template": "ySIDefault", "filename": "interface\\icons\\Ammo_Bullet.dds",						"name": "Cartridge",			"tab": 4, "count": 2, "icon": "Interface\\Icons\\PipboyImages\\Items\\items_5.56mm_rounds.dds" },
+	{ "priority": 101, "tag": "(amm1)", "systemcolor": -1, "template": "ySIDefault", "filename": "interface\\icons\\Ammo_Shotgun.dds",						"name": "Shotshell",			"tab": 4, "count": 2, "icon": "Interface\\Icons\\PipboyImages\\Items\\items_20_guage_shells.dds" },
+	{ "priority": 101, "tag": "(amm2)", "systemcolor": -1, "template": "ySIDefault", "filename": "interface\\icons\\Ammo_Energy.dds",						"name": "Energy",				"tab": 4, "count": 2, "icon": "Interface\\Icons\\PipboyImages\\Items\\items_energy_cell.dds" },
+	{ "priority": 101, "tag": "(amm3)", "systemcolor": -1, "template": "ySIDefault", "filename": "interface\\icons\\Ammo_Explosive.dds",					"name": "Explosive",			"tab": 4, "count": 2, "icon": "Interface\\Icons\\PipboyImages\\Items\\items_missile.dds" },
+	{ "priority": 101, "tag": "(amm4)", "systemcolor": -1, "template": "ySIDefault", "filename": "interface\\icons\\Ammo_BBs.dds",							"name": "Other",				"tab": 4, "count": 2, "icon": "Interface\\Icons\\PipboyImages\\Items\\items_bb.dds" },
+
+	{ "priority": 100, "tag": "(aba1)", "systemcolor": -1, "template": "ySIDefault", "filename": "interface\\icons\\Ammo_Bullet.dds",						"category": "(amm0)" },
+	{ "priority": 100, "tag": "(abb1)", "systemcolor": -1, "template": "ySIDefault", "filename": "interface\\icons\\Ammo_Shotgun.dds",						"category": "(amm1)" },
+	{ "priority": 100, "tag": "(ada1)", "systemcolor": -1, "template": "ySIDefault", "filename": "interface\\icons\\Ammo_Energy.dds",						"category": "(amm2)" },
+	{ "priority": 100, "tag": "(adb1)", "systemcolor": -1, "template": "ySIDefault", "filename": "interface\\icons\\Ammo_Alien.dds",						"category": "(amm2)" },
+	{ "priority": 100, "tag": "(adc1)", "systemcolor": -1, "template": "ySIDefault", "filename": "interface\\icons\\Ammo_Cryolator.dds",					"category": "(amm2)" },
+	{ "priority": 100, "tag": "(afa1)", "systemcolor": -1, "template": "ySIDefault", "filename": "interface\\icons\\Ammo_Flamer.dds",						"category": "(amm2)" },
+	{ "priority": 100, "tag": "(aha1)", "systemcolor": -1, "template": "ySIDefault", "filename": "interface\\icons\\Ammo_Explosive.dds",					"category": "(amm3)" },
+	{ "priority": 100, "tag": "(aja1)", "systemcolor": -1, "template": "ySIDefault", "filename": "interface\\icons\\Ammo_BBs.dds",							"category": "(amm4)" },
+	{ "priority": 100, "tag": "(ajb1)", "systemcolor": -1, "template": "ySIDefault", "filename": "interface\\icons\\Ammo_Arrows.dds",						"category": "(amm4)" },
+	{ "priority": 100, "tag": "(ajc1)", "systemcolor": -1, "template": "ySIDefault", "filename": "interface\\icons\\Misc_Camera.dds",						"category": "(amm4)" },
+	{ "priority": 100, "tag": "(ajd1)", "systemcolor": -1, "template": "ySIDefault", "filename": "interface\\icons\\Ammo_Watergun.dds",						"category": "(amm4)" },
+	{ "priority": 100, "tag": "(aje1)", "systemcolor": -1, "template": "ySIDefault", "filename": "interface\\icons\\Ammo_Baseball.dds",						"category": "(amm4)" },
+	{ "priority": 100, "tag": "(ajf1)", "systemcolor": -1, "template": "ySIDefault", "filename": "interface\\icons\\Ammo_SawDisc.dds",						"category": "(amm4)" }
+
+]}

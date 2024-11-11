@@ -1,0 +1,28 @@
+{"icons": [
+
+	{ "priority": 100, "tag": "(aid0)", "systemcolor": -1, "template": "ySIDefault", "filename": "interface\\icons\\Aid_DoctorBag.dds",						"name": "&-sInventoryAid;",		"tab": 2, "count": 2, "icon": "Interface\\Icons\\PipboyImages\\Items\\item_doctors_bag.dds" },
+	{ "priority": 100, "tag": "(aid1)", "systemcolor": -1, "template": "ySIDefault", "filename": "interface\\icons\\Aid_Water.dds",							"name": "Drinks",				"tab": 2, "count": 2, "icon": "Interface\\Icons\\PipboyImages\\Items\\items_water.dds" },
+	{ "priority": 100, "tag": "(aid2)", "systemcolor": -1, "template": "ySIDefault", "filename": "interface\\icons\\Aid_Meat.dds",							"name": "Food",					"tab": 2, "count": 2, "icon": "Interface\\Icons\\PipboyImages\\Items\\items_food.dds" },
+	{ "priority": 100, "tag": "(aid3)", "systemcolor": -1, "template": "ySIDefault", "filename": "interface\\icons\\Aid_Book.dds",							"name": "Books & Magazines",	"tab": 2, "count": 2, "icon": "Interface\\Icons\\PipboyImages\\Items\\items_skill_books.dds" },
+	{ "priority": 100, "tag": "(aid4)", "systemcolor": -1, "template": "ySIDefault", "filename": "interface\\icons\\Aid_WeaponRepairKit.dds",				"name": "Other",				"tab": 2, "count": 2, "icon": "Interface\\Icons\\PipboyImages\\Items\\item_repair_kit.dds" },
+
+	{ "priority": 101, "tag": "(dba1)", "systemcolor": -1, "template": "ySIDefault", "filename": "interface\\icons\\Aid_Stimpak.dds",						"category": "(aid0)" },
+	{ "priority": 101, "tag": "(dbb2)", "systemcolor": -1, "template": "ySIDefault", "filename": "interface\\icons\\Aid_DoctorBag.dds",						"category": "(aid0)" },
+	{ "priority": 101, "tag": "(dbc3)", "systemcolor": -1, "template": "ySIDefault", "filename": "interface\\icons\\Aid_RadAway.dds",						"category": "(aid0)" },
+	{ "priority": 101, "tag": "(dda1)", "systemcolor": -1, "template": "ySIDefault", "filename": "interface\\icons\\Aid_Drug.dds",							"category": "(aid0)" },
+	{ "priority": 101, "tag": "(ddb1)", "systemcolor": -1, "template": "ySIDefault", "filename": "interface\\icons\\Aid_Poison.dds",						"category": "(aid0)" },
+	{ "priority": 101, "tag": "(dfa1)", "systemcolor": -1, "template": "ySIDefault", "filename": "interface\\icons\\Aid_Alcohol.dds",						"category": "(aid1)" },
+	{ "priority": 101, "tag": "(dfb1)", "systemcolor": -1, "template": "ySIDefault", "filename": "interface\\icons\\Aid_NukaCola.dds",						"category": "(aid1)" },
+	{ "priority": 101, "tag": "(dfc1)", "systemcolor": -1, "template": "ySIDefault", "filename": "interface\\icons\\Aid_Water.dds",							"category": "(aid1)" },
+	{ "priority": 101, "tag": "(jda2)", "systemcolor": -1, "template": "ySIDefault", "filename": "interface\\icons\\Misc_Flask.dds",						"category": "(aid1)" },
+	{ "priority": 101, "tag": "(dfd1)", "systemcolor": -1, "template": "ySIDefault", "filename": "interface\\icons\\Aid_Jar.dds",							"category": "(aid1)" },
+	{ "priority": 101, "tag": "(dha1)", "systemcolor": -1, "template": "ySIDefault", "filename": "interface\\icons\\Aid_Meat.dds",							"category": "(aid2)" },
+	{ "priority": 101, "tag": "(dha2)", "systemcolor": -1, "template": "ySIDefault", "filename": "interface\\icons\\Aid_Plant.dds",							"category": "(aid2)" },
+	{ "priority": 101, "tag": "(dhb1)", "systemcolor": -1, "template": "ySIDefault", "filename": "interface\\icons\\Aid_PreWar.dds",						"category": "(aid2)" },
+	{ "priority": 101, "tag": "(dhc1)", "systemcolor": -1, "template": "ySIDefault", "filename": "interface\\icons\\Aid_CookedMeal.dds",					"category": "(aid2)" },
+	{ "priority": 101, "tag": "(dja1)", "systemcolor": -1, "template": "ySIDefault", "filename": "interface\\icons\\Aid_Magazine.dds",						"category": "(aid3)" },
+	{ "priority": 101, "tag": "(djb1)", "systemcolor": -1, "template": "ySIDefault", "filename": "interface\\icons\\Aid_Book.dds",							"category": "(aid3)" },
+	{ "priority": 101, "tag": "(dlb1)", "systemcolor": -1, "template": "ySIDefault", "filename": "interface\\icons\\Aid_GenericDevice.dds",					"category": "(aid4)" },
+	{ "priority": 101, "tag": "(dla1)", "systemcolor": -1, "template": "ySIDefault", "filename": "interface\\icons\\Aid_WeaponRepairKit.dds",				"category": "(aid4)" }
+
+]}
