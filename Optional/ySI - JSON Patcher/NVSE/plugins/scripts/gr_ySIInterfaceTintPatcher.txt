@@ -1,4 +1,4 @@
-; ySI - Interface Tint Patcher 1.5 - Stentorious
+; ySI - Interface Tint Patcher - Stentorious
 
 int iFlag = -1
 array_var aFileNames = GetFilesInFolder "menus\ySI" "*.json"
