@@ -1,3 +1,4 @@
+; io trait injection
 Stentorious\Colorful Icons Support\InjectTrait\io.xml::HUDMainMenu
 true
 Stentorious\Colorful Icons Support\InjectTrait\io.xml::InventoryMenu
@@ -10,10 +11,32 @@ Stentorious\Colorful Icons Support\InjectTrait\io.xml::RepairMenu
 true
 Stentorious\Colorful Icons Support\InjectTrait\io.xml::ItemModMenu
 true
+Stentorious\Colorful Icons Support\InjectTrait\io.xml::RepairServicesMenu
+true
+Stentorious\Colorful Icons Support\InjectTrait\io.xml::BarterMenu
+true
+Stentorious\Colorful Icons Support\InjectTrait\io.xml::ContainerMenu
+true
+Stentorious\Colorful Icons Support\InjectTrait\io.xml::RecipeMenu
+true
+Stentorious\Colorful Icons Support\InjectTrait\io.xml::VATSMenu
+true
+Stentorious\Colorful Icons Support\InjectTrait\io.xml::LevelUpMenu
+true
+Stentorious\Colorful Icons Support\InjectTrait\io.xml::TraitMenu
+true
+Stentorious\Colorful Icons Support\InjectTrait\io.xml::SleepWaitMenu
+true
+Stentorious\Colorful Icons Support\InjectTrait\io.xml::LockPickMenu
+true
+
+; Hotkey Icon support
 Stentorious\Colorful Icons Support\InjectTrait\systemcolor.xml::InventoryMenu::IM_HotkeyIcon
 true
 Stentorious\Colorful Icons Support\InjectTrait\systemcolor.xml::@Prefabs\hotkey.xml::HK_Icon
 true
+
+; Just Loot Menu support
 Stentorious\Colorful Icons Support\InjectTrait\systemcolor.xml::@Prefabs\JLM\JLM.xml::JLMIconImage
 #JLM\JLM.xml
 true
