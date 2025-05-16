@@ -3,7 +3,6 @@
 int iFlag = -1
 array_var aFileNames = GetFilesInFolder "menus\ySI" "*.json"
 array_var aCache = GetINISection "Processed" "ySIInterfaceTintPatcherCache.ini"
-array_var aForE = Ar_Construct "stringmap"
 array_var aIcons = Ar_Construct "array"
 array_var aIconsCopy = Ar_Construct "array"
 string_var sFileName = ""
@@ -11,59 +10,60 @@ string_var sFileName = ""
 PrintC "Starting ySI - Interface Tint Patcher..."
 
 ; Iterate through every ySI JSON to check if icon objects have the "systemcolor": -1 trait, adding it if missing
-if aFileNames
+if eval (int iSize = Ar_Size aFileNames) > 0
 
 	int iIndex = 0
-	int iIconCount = 0
 	int iCacheSize = Ar_Size aCache
 
-	foreach aForE <- aFileNames
-		sFileName = *aForE
+	while (iSize -= 1) > -1
+		sFileName = aFileNames[iSize]
 
 		; If file wasn't previously processed and has valid icon objects
-		if eval (Ar_Find sFileName aCache) == Ar_BadStringIndex
-			if TestExpr aIcons = ReadFromJSON ("data\menus\ySI\" + sFileName) "/icons" 1
+		if eval (Ar_Find sFileName aCache) != Ar_BadStringIndex
+			continue
+		endif
 
-				iIndex = 0
-				iFlag = 0
-				iIconCount = Ar_Size aIcons
-				aIconsCopy = aIcons
+		if eval TestExpr (aIcons = ReadFromJSON ("data\menus\ySI\" + sFileName) "/icons" 1)
 
-				; Add "systemcolor": -1 to all icon objects
-				while iIndex < iIconCount
-					if eval (ar_HasKey aIcons[iIndex] "systemcolor") == 0 || ((ar_HasKey aIcons[iIndex] "systemcolor") == 1 && (aIcons[iIndex]["systemcolor"]) != -1)
-						aIconsCopy[iIndex]["systemcolor"] = -1
-						iFlag = 1
-					endif
-					iIndex += 1
-				loop
+			iFlag = 0
+			iIndex = Ar_Size aIcons
+			aIconsCopy = aIcons
 
-				; If any icon objects patched, update JSON.
-				if iFlag == 1
-					WriteToJSON aIconsCopy ("data\menus\ySI\" + sFileName) "/icons" 0 0 1
-					PrintC ("Patching: " + sFileName)
-					SetINIString ("Processed:" + $iCacheSize) (sFileName) "ySIInterfaceTintPatcherCache.ini"
-					iCacheSize += 1
-				else
-					PrintC ("Ignoring: " + sFileName)
-					SetINIString ("Processed:" + $iCacheSize) (sFileName) "ySIInterfaceTintPatcherCache.ini"
-					iCacheSize += 1
+			; Add "systemcolor": -1 to all icon objects
+			while (iIndex -= 1) > -1
+				if eval (ar_HasKey aIcons[iIndex] "systemcolor") == 0 || ((ar_HasKey aIcons[iIndex] "systemcolor") == 1 && (aIcons[iIndex]["systemcolor"]) != -1)
+					aIconsCopy[iIndex]["systemcolor"] = -1
+					iFlag = 1
 				endif
+			loop
 
+			; If any icon objects patched, update JSON.
+			if iFlag == 1
+				WriteToJSON aIconsCopy ("data\menus\ySI\" + sFileName) "/icons" 0 0 1
+				PrintC ("Patching: " + sFileName)
+				SetINIString ("Processed:" + $iCacheSize) (sFileName) "ySIInterfaceTintPatcherCache.ini"
+				iCacheSize += 1
 			else
 				PrintC ("Ignoring: " + sFileName)
 				SetINIString ("Processed:" + $iCacheSize) (sFileName) "ySIInterfaceTintPatcherCache.ini"
 				iCacheSize += 1
 			endif
+
+		else
+			PrintC ("Ignoring: " + sFileName)
+			SetINIString ("Processed:" + $iCacheSize) (sFileName) "ySIInterfaceTintPatcherCache.ini"
+			iCacheSize += 1
 		endif
+
 	loop
+
 endif
 
 if iFlag == -1
 	PrintC "No new ySI JSONs found..."
 endif
 
-aFileNames = aCache = aForE = aIcons = aIconsCopy = ar_Null
+aFileNames = aCache = aIcons = aIconsCopy = ar_Null
 sv_Destruct sFileName
 
 PrintC "ySI - Interface Tint Patcher finished!"
