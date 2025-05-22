@@ -41,21 +41,24 @@ if eval (int iSize = Ar_Size aFileNames) > 0
 			if iFlag == 1
 				WriteToJSON aIconsCopy ("data\menus\ySI\" + sFileName) "/icons" 0 0 1
 				PrintC ("Patching: " + sFileName)
-				SetINIString ("Processed:" + $iCacheSize) (sFileName) "ySIInterfaceTintPatcherCache.ini"
+				SetINIValC ("Processed:" + $iCacheSize) (sFileName) "ySIInterfaceTintPatcherCache.ini"
 				iCacheSize += 1
 			else
 				PrintC ("Ignoring: " + sFileName)
-				SetINIString ("Processed:" + $iCacheSize) (sFileName) "ySIInterfaceTintPatcherCache.ini"
+				SetINIValC ("Processed:" + $iCacheSize) (sFileName) "ySIInterfaceTintPatcherCache.ini"
 				iCacheSize += 1
 			endif
 
 		else
 			PrintC ("Ignoring: " + sFileName)
-			SetINIString ("Processed:" + $iCacheSize) (sFileName) "ySIInterfaceTintPatcherCache.ini"
+			SetINIValC ("Processed:" + $iCacheSize) (sFileName) "ySIInterfaceTintPatcherCache.ini"
 			iCacheSize += 1
 		endif
 
 	loop
+
+	SaveCachedIni "ySIInterfaceTintPatcherCache.ini"
+	CloseFileSO "ySIInterfaceTintPatcherCache.ini" 0
 
 endif
 
