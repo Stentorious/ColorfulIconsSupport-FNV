@@ -6,6 +6,7 @@
 	{ "priority": 100, "tag": "(isc3)", "systemcolor": -1, "template": "ySIDefault", "filename": "interface\\icons\\Misc_Crafting.dds",						"name": "Crafting Ingredients",	"tab": 3, "count": 2, "icon": "Interface\\Icons\\PipboyImages\\Items\\items_schematics_bottlecap_mine.dds" },
 	{ "priority": 100, "tag": "(isc4)", "systemcolor": -1, "template": "ySIDefault", "filename": "interface\\icons\\Misc_DogTag.dds",						"name": "Other",				"tab": 3, "count": 2, "icon": "Interface\\Icons\\PipboyImages\\Items\\items_holo_dogtag.dds" },
 	{ "priority": 100, "tag": "(isc5)", "systemcolor": -1, "template": "ySIDefault", "filename": "interface\\icons\\Misc_Junk.dds",							"name": "&-sJunk;",				"tab": 3, "count": 2, "icon": "Interface\\Icons\\PipboyImages\\Items\\item_junk.dds" },
+	{ "priority": 100, "tag": "(isc6)", "systemcolor": -1, "template": "ySIDefault", "filename": "interface\\icons\\Misc_QuestItem.dds",					"name": "Quest",				"tab": 3, "count": 2, "icon": "Interface\\Icons\\PipboyImages\\Items\\item_platinum_poker_chip.dds" },
 	{ "priority": 101, "tag": "(jdc0)", "systemcolor": -1, "template": "ySIDefault", "filename": "interface\\icons\\Misc_Note.dds",							"name": "&-sNotesToggle;",		"tab": 3, "count": 2, "icon": "Interface\\Icons\\PipboyImages\\Items\\items_research_data.dds" },
 	{ "priority": 101, "tag": "(jdd0)", "systemcolor": -1, "template": "ySIDefault", "filename": "interface\\icons\\Misc_Keychain.dds",						"name": "&-sKeyring;",			"tab": 3, "count": 2, "icon": "Interface\\Icons\\PipboyImages\\Items\\item_keyring.dds" },
 	{ "priority": 101, "tag": "(jde0)", "systemcolor": -1, "template": "ySIDefault", "filename": "interface\\icons\\Misc_Card.dds",							"name": "&-sCaravanDeckText;",	"tab": 3, "count": 2, "icon": "Interface\\Icons\\PipboyImages\\Items\\item_caravan_deck.dds" },
@@ -15,7 +16,6 @@
 	{ "priority": 101, "tag": "(jfb1)", "systemcolor": -1, "template": "ySIDefault", "filename": "interface\\icons\\Misc_AmmoComponent.dds",				"category": "(isc2)" },
 	{ "priority": 101, "tag": "(jfc1)", "systemcolor": -1, "template": "ySIDefault", "filename": "interface\\icons\\Misc_Crafting.dds",						"category": "(isc3)" },
 	{ "priority": 101, "tag": "(jdf1)", "systemcolor": -1, "template": "ySIDefault", "filename": "interface\\icons\\Misc_DogTag.dds",						"category": "(isc4)" },
-	{ "priority": 101, "tag": "(jdb1)", "systemcolor": -1, "template": "ySIDefault", "filename": "interface\\icons\\Misc_QuestItem.dds",					"category": "(isc4)" },
 	{ "priority": 101, "tag": "(jdb0)", "systemcolor": -1, "template": "ySIDefault", "filename": "interface\\icons\\Misc_Chip.dds",							"category": "(isc4)" },
 	{ "priority": 101, "tag": "(jda1)", "systemcolor": -1, "template": "ySIDefault", "filename": "interface\\icons\\Misc_BobbyPin.dds",						"category": "(isc4)" },
 	{ "priority": 101, "tag": "(jbd1)", "systemcolor": -1, "template": "ySIDefault", "filename": "interface\\icons\\Misc_Chip.dds",							"category": "(isc4)" },
@@ -24,6 +24,7 @@
 	{ "priority": 101, "tag": "(jba1)", "systemcolor": -1, "template": "ySIDefault", "filename": "interface\\icons\\Misc_BottleCap.dds",					"category": "(isc4)" },
 	{ "priority": 101, "tag": "(jha1)", "systemcolor": -1, "template": "ySIDefault", "filename": "interface\\icons\\Misc_Junk.dds",							"category": "(isc5)" },
 	{ "priority": 101, "tag": "(jhb1)", "systemcolor": -1, "template": "ySIDefault", "filename": "interface\\icons\\Misc_Skull.dds",						"category": "(isc5)" },
+	{ "priority": 101, "tag": "(jdb1)", "systemcolor": -1, "template": "ySIDefault", "filename": "interface\\icons\\Misc_QuestItem.dds",					"category": "(isc6)" },
 	{ "priority": 101, "tag": "(jdc1)", "systemcolor": -1, "template": "ySIDefault", "filename": "interface\\icons\\Misc_Note.dds",							"category": "(jdc0)" },
 	{ "priority": 101, "tag": "(jdd1)", "systemcolor": -1, "template": "ySIDefault", "filename": "interface\\icons\\Misc_Key.dds",							"category": "(jdd0)" },
 	{ "priority": 101, "tag": "(jde1)", "systemcolor": -1, "template": "ySIDefault", "filename": "interface\\icons\\Misc_Card.dds",							"category": "(jde0)" }
