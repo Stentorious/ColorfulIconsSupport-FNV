@@ -1,2 +1,9 @@
-Stentorious\Colorful Icons Support\InjectTrait\systemcolor.xml::MapMenu::MapMarker
+; io trait injection
+Stentorious\Colorful Icons Support\MapMarker.xml::HUDMainMenu
+true
+Stentorious\Colorful Icons Support\MapMarker.xml::MapMenu
+true
+
+; Map Marker support
+Stentorious\Colorful Icons Support\systemcolor.xml::MapMenu::MapMarker
 true
