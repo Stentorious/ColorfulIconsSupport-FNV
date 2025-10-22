@@ -76,6 +76,19 @@ NOTE: Colorful icons downloaded separately.</description>
 						</plugin>
 					</plugins>
 				</group>
+				<group name="Colorful Icons" type="SelectAny">
+					<plugins order="Explicit">
+						<plugin name="Doors">
+							<description>Adds colorful versions of Stentorious' door icons.</description>
+							<files>
+								<folder source="Optional\ySI - Icons\Doors" destination="" priority="0" />
+							</files>
+							<typeDescriptor>
+								<type name="Recommended"/>
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
 				<group name="Optional" type="SelectAny">
 					<plugins order="Explicit">
 						<plugin name="ySI - JSON Patcher">
