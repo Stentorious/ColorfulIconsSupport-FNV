@@ -78,10 +78,19 @@ NOTE: Colorful icons downloaded separately.</description>
 				</group>
 				<group name="Colorful Icons" type="SelectAny">
 					<plugins order="Explicit">
-						<plugin name="Doors">
-							<description>Adds colorful versions of Stentorious' door icons.</description>
+						<plugin name="Doors (ySI)">
+							<description>Adds colorful versions of Stentorious' ySI door icons.</description>
 							<files>
 								<folder source="Optional\ySI - Icons\Doors" destination="" priority="0" />
+							</files>
+							<typeDescriptor>
+								<type name="Recommended"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Doors (Local Map)">
+							<description>Adds colorful versions of Stentorious' local map door icons.</description>
+							<files>
+								<folder source="Optional\Map Icons\Doors" destination="" priority="0" />
 							</files>
 							<typeDescriptor>
 								<type name="Recommended"/>
