@@ -22,7 +22,7 @@ NOTE: Colorful icons downloaded separately.</description>
 								<folder source="Main\Map Markers" destination="" priority="0" />
 							</files>
 							<typeDescriptor>
-								<type name="Optional"/>
+								<type name="Recommended"/>
 							</typeDescriptor>
 						</plugin>
 					</plugins>
