@@ -76,9 +76,18 @@ NOTE: Colorful icons downloaded separately.</description>
 						</plugin>
 					</plugins>
 				</group>
-				<group name="Colorful Icons" type="SelectAny">
+				<group name="Colorful Icons - ySI" type="SelectAny">
 					<plugins order="Explicit">
-						<plugin name="Doors (ySI)">
+						<plugin name="Bottle Caps">
+							<description>Adds colorful versions of Stentorious' MAPMO style ySI Nuka Cola and Sunset Sarsaparilla star bottle cap icons.</description>
+							<files>
+								<folder source="Optional\ySI - Icons\Caps" destination="" priority="0" />
+							</files>
+							<typeDescriptor>
+								<type name="Recommended"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Doors">
 							<description>Adds colorful versions of Stentorious' ySI door icons.</description>
 							<files>
 								<folder source="Optional\ySI - Icons\Doors" destination="" priority="0" />
@@ -87,7 +96,20 @@ NOTE: Colorful icons downloaded separately.</description>
 								<type name="Recommended"/>
 							</typeDescriptor>
 						</plugin>
-						<plugin name="Doors (Local Map)">
+						<plugin name="UI Prompts">
+							<description>Adds colorful versions of Stentorious' ySI UI prompt icons.</description>
+							<files>
+								<folder source="Optional\ySI - Icons\UI" destination="" priority="0" />
+							</files>
+							<typeDescriptor>
+								<type name="Recommended"/>
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+				<group name="Colorful Icons - Map" type="SelectAny">
+					<plugins order="Explicit">
+						<plugin name="Doors">
 							<description>Adds colorful versions of Stentorious' local map door icons.</description>
 							<files>
 								<folder source="Optional\Map Icons\Doors" destination="" priority="0" />
