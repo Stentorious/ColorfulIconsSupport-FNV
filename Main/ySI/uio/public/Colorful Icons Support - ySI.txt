@@ -29,6 +29,8 @@ Stentorious\Colorful Icons Support\ySI.xml::SleepWaitMenu
 true
 Stentorious\Colorful Icons Support\ySI.xml::LockPickMenu
 true
+Stentorious\Colorful Icons Support\ySI.xml::TutorialMenu
+true
 
 ; Hotkey Icon support
 Stentorious\Colorful Icons Support\systemcolor.xml::InventoryMenu::IM_HotkeyIcon
